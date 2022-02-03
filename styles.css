@@ -96,3 +96,23 @@ header .logo {
   border-color: #3882f6;
   border-style: solid;
 }
+
+/* Features */
+.features h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding-top: 8%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.features .flex {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+}
