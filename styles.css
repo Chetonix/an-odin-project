@@ -50,8 +50,6 @@ header .logo {
   color: #e5e7eb;
 }
 
-.navbar h1 {
-}
 /* Main */
 .main {
   background-color: var(--dark-color);
