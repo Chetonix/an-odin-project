@@ -7,6 +7,7 @@
   font-size: 1rem;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
   max-width: 1100px;
@@ -50,4 +51,38 @@ header .logo {
 }
 
 .navbar h1 {
+}
+/* Main */
+.main {
+  background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.sub-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.main .grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-image img {
+  width: 450px;
+  height: 250px;
+}
+.main .sub-text {
+  padding-top: 10px;
 }
