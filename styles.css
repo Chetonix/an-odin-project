@@ -98,6 +98,11 @@ header .logo {
 }
 
 /* Features */
+
+.features {
+  margin-bottom: 100px;
+}
+
 .features h2 {
   font-size: 36px;
   font-weight: 900;
@@ -193,4 +198,13 @@ h4.cta-heading {
   font-size: 18px;
   font-weight: 100;
   padding-top: 5px;
+}
+
+/* Footer */
+footer {
+  color: white;
+  background-color: var(--dark-color);
+  padding: 40px 100px;
+  text-align: center;
+  word-spacing: 2px;
 }
