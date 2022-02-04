@@ -137,6 +137,7 @@ header .logo {
   background-color: #e5e7eb;
   padding-top: 100px;
   padding-left: 150px;
+  padding-bottom: 100px;
   /* overflow: hidden; */
 }
 
@@ -159,10 +160,30 @@ header .logo {
 
 /* CTA */
 .cta {
-  margin: 100px 0px;
-  background-color: #3882f6;
+  color: white;
 }
 
 .cta .grid {
   display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.banner {
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.banner-button .btn {
+  border: 2px solid #fff;
+}
+
+h4.cta-heading {
+  font-size: 20px;
+}
+
+.cta-heading p {
+  font-size: 18px;
+  font-weight: 100;
+  padding-top: 10px;
 }
