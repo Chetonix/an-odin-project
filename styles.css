@@ -165,15 +165,22 @@ header .logo {
 
 .cta .grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 4fr 1fr;
+  gap: 0px;
 }
-.banner {
+.cta .banner {
   background-color: #3882f6;
   border-radius: 8px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-
+.cta .banner-text {
+  padding-left: 0px;
+}
 .banner-button .btn {
   border: 2px solid #fff;
 }
@@ -182,8 +189,8 @@ h4.cta-heading {
   font-size: 20px;
 }
 
-.cta-heading p {
+.banner-text p {
   font-size: 18px;
   font-weight: 100;
-  padding-top: 10px;
+  padding-top: 5px;
 }
