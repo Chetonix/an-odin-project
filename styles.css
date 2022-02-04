@@ -88,7 +88,7 @@ header .logo {
 .btn.btn-primary {
   background-color: #3882f6;
   color: white;
-  padding: 9px 23px;
+  padding: 6px 23px;
   margin-top: 9px;
   font-size: 1.2rem;
   border-radius: 8px;
@@ -155,4 +155,14 @@ header .logo {
   margin-top: 10px;
   text-align: right;
   margin-right: 70px;
+}
+
+/* CTA */
+.cta {
+  margin: 100px 0px;
+  background-color: #3882f6;
+}
+
+.cta .grid {
+  display: grid;
 }
